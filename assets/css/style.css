@@ -1,0 +1,76 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  width: 1280px;
+  font-family: "Raleway", sans-serif;
+}
+.titulo {
+  background-color: black;
+  height: 73px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.fondoIguana {
+  display: flex;
+}
+.descripcion {
+  display: flex;
+  background-color: black;
+  height: 348px;
+  justify-content: center;
+}
+.textoiguana {
+  width: 475px;
+  height: 197px;
+  color: #fff;
+  font-size: 16px;
+  margin: 76px 75px;
+}
+.imagentexto img {
+  width: 399px;
+  height: 237px;
+  margin: 45px 66px;
+}
+
+.caracteristicas {
+  background-color: #1e1a13;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 75px 226px;
+  height: 348px;
+}
+.iconos {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  font-size: 1rem;
+}
+.iconos p {
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 16.2px;
+}
+
+.containerFlex {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.containerFlex img {
+  width: 316px;
+  height: 202px;
+  margin: 73px 16px 73px;
+}
+.footer {
+  background-color: #1e1a13;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 39px 299px;
+}
